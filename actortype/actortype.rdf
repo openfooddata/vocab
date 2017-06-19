@@ -1,0 +1,288 @@
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ofd="https://w3id.org/openfooddata/onto/core#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:at="https://w3id.org/openfooddata/vocab/actortype#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    </rdf:type>
+    <rdf:type>
+      <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    </rdf:type>
+  </rdfs:Datatype>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="https://w3id.org/openfooddata/onto/core#FoodActorType">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdfs:Class rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdfs:Class>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    <rdfs:subPropertyOf>
+      <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    </rdfs:subPropertyOf>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#object"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+    <rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <rdf:Property rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+    <rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#first"/>
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:Property>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#webshop">
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#pointOfSale">
+        <skos:prefLabel xml:lang="nl">Verkooppunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Point of sale</skos:prefLabel>
+        <rdfs:label>Point of sale</rdfs:label>
+        <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="nl">Webwinkel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Webshop</skos:prefLabel>
+    <rdfs:label>Webshop</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#farmShop">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
+    <skos:prefLabel xml:lang="nl">Hoevewinkel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Farm Shop</skos:prefLabel>
+    <rdfs:label>Farm Shop</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#foodSAAS">
+    <rdfs:label>Food SAAS</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#softwareProvider">
+    <rdfs:label>Software Provider</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#producer">
+    <skos:prefLabel xml:lang="nl">producent</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">producer</skos:prefLabel>
+    <rdfs:label>Producer</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#distributor">
+    <rdfs:label>FoodDistributor</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#foodRetailer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
+    <rdfs:label>FoodRetailer</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#selfPicking">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
+    <skos:prefLabel xml:lang="nl">Zelfpluk</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Self-picking</skos:prefLabel>
+    <rdfs:label>Self-picking</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#picker">
+    <rdfs:label>FoodPicker</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#foodAssembly">
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#foodHub">
+        <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#webShop"/>
+        <rdfs:label>FoodHub</rdfs:label>
+        <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#collectionPoint">
+        <skos:prefLabel xml:lang="nl">Afhaalpunt</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Collection point</skos:prefLabel>
+        <rdfs:label>Collection point</rdfs:label>
+        <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="nl">Buurderij</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Food Assembly</skos:prefLabel>
+    <rdfs:label>Food Assembly</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#farmersMarket">
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#market">
+        <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
+        <skos:prefLabel xml:lang="nl">Markt</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Market</skos:prefLabel>
+        <rdfs:label>Market</rdfs:label>
+        <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="nl">Boerenmarkt</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Farmers Market</skos:prefLabel>
+    <rdfs:label>Farmers Market</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <rdf:List rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+  </rdf:List>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#vendingMachine">
+    <skos:prefLabel xml:lang="nl">Automaat</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Vending machine</skos:prefLabel>
+    <rdfs:label>Vending machine</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#store">
+    <rdfs:label>FoodStore</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#vegetableSubscription">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
+    <skos:prefLabel xml:lang="nl">Groenteabonnement</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Vegetable subscription</skos:prefLabel>
+    <rdfs:label>Vegetable subscription</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#csaFarm">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
+    <skos:prefLabel xml:lang="nl">CSA-boerderij</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">CSA farm</skos:prefLabel>
+    <rdfs:label>CSA farm</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#foodTeams">
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#cooperative">
+        <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
+        <skos:prefLabel xml:lang="nl">Coöperatie</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Co-operative</skos:prefLabel>
+        <rdfs:label>Co-operative</rdfs:label>
+        <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="nl">Voedselteams</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Food teams</skos:prefLabel>
+    <rdfs:label>Food teams</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+</rdf:RDF>

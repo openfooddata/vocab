@@ -1,0 +1,210 @@
+@prefix at:    <https://w3id.org/openfooddata/vocab/actortype#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ofd:   <https://w3id.org/openfooddata/onto/core#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#rest>
+        a                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , rdfs:Resource ;
+        rdfs:domain         <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> ;
+        rdfs:range          <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> ;
+        rdfs:subPropertyOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#List>
+        a                rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate>
+        a                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , rdfs:Resource ;
+        rdfs:domain         <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+        rdfs:subPropertyOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>
+        a                rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+rdfs:label  a       rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:range  rdfs:Literal .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement>
+        a                rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> .
+
+rdfs:Class  a            rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  rdfs:Resource , rdfs:Class .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        a           rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:range  rdfs:Class .
+
+rdfs:Resource  a         rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  rdfs:Resource .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#subject>
+        a                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , rdfs:Resource ;
+        rdfs:domain         <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+        rdfs:subPropertyOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral>
+        a       rdfs:Datatype , rdfs:Resource , rdfs:Class .
+
+rdfs:comment  a     rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:range  rdfs:Literal .
+
+rdfs:range  a        rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:domain  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:range   rdfs:Class .
+
+rdfs:subPropertyOf  a  rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:domain  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:range   <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#object>
+        a                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , rdfs:Resource ;
+        rdfs:domain         <http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement> ;
+        rdfs:subPropertyOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#nil>
+        a       <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> , rdfs:Resource .
+
+rdfs:domain  a       rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:domain  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:range   rdfs:Class .
+
+rdfs:Literal  a          rdfs:Class , rdfs:Resource ;
+        rdfs:subClassOf  rdfs:Resource , rdfs:Literal .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#first>
+        a                   <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> , rdfs:Resource ;
+        rdfs:domain         <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> ;
+        rdfs:subPropertyOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> .
+
+rdfs:subClassOf  a   rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:domain  rdfs:Class ;
+        rdfs:range   rdfs:Class .
+
+at:picker  a        skos:Concept , ofd:FoodActorType ;
+        rdfs:label  "FoodPicker" .
+
+at:foodTeams  a         skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food teams" ;
+        skos:broader    at:cooperative ;
+        skos:prefLabel  "Voedselteams"@nl , "Food teams"@en .
+
+at:foodSAAS  a      skos:Concept , ofd:FoodActorType ;
+        rdfs:label  "Food SAAS" .
+
+at:foodAssembly  a      skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food Assembly" ;
+        skos:broader    at:foodHub , at:collectionPoint ;
+        skos:prefLabel  "Buurderij"@nl , "Food Assembly"@en .
+
+at:foodHub  a         skos:Concept , ofd:FoodActorType ;
+        rdfs:label    "FoodHub" ;
+        skos:broader  at:webShop .
+
+at:webshop  a           skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Webshop" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "Webwinkel"@nl , "Webshop"@en .
+
+at:selfPicking  a       skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Self-picking" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "Zelfpluk"@nl , "Self-picking"@en .
+
+at:csaFarm  a           skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "CSA farm" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "CSA-boerderij"@nl , "CSA farm"@en .
+
+at:distributor  a   skos:Concept , ofd:FoodActorType ;
+        rdfs:label  "FoodDistributor" .
+
+at:pointOfSale  a       skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Point of sale" ;
+        skos:prefLabel  "Verkooppunt"@nl , "Point of sale"@en .
+
+at:softwareProvider  a  skos:Concept , ofd:FoodActorType ;
+        rdfs:label  "Software Provider" .
+
+at:market  a            skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Market" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "Markt"@nl , "Market"@en .
+
+at:foodRetailer  a    skos:Concept , ofd:FoodActorType ;
+        rdfs:label    "FoodRetailer" ;
+        skos:broader  at:pointOfSale .
+
+at:vegetableSubscription
+        a               skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Vegetable subscription" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "Groenteabonnement"@nl , "Vegetable subscription"@en .
+
+at:collectionPoint  a   skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Collection point" ;
+        skos:prefLabel  "Afhaalpunt"@nl , "Collection point"@en .
+
+at:vendingMachine  a    skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Vending machine" ;
+        skos:prefLabel  "Automaat"@nl , "Vending machine"@en .
+
+at:producer  a          skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Producer" ;
+        skos:prefLabel  "producent"@nl , "producer"@en .
+
+at:store  a         skos:Concept , ofd:FoodActorType ;
+        rdfs:label  "FoodStore" .
+
+at:farmShop  a          skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Farm Shop" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "Hoevewinkel"@nl , "Farm Shop"@en .
+
+at:cooperative  a       skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Co-operative" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "Coöperatie"@nl , "Co-operative"@en .
+
+at:farmersMarket  a     skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Farmers Market" ;
+        skos:broader    at:market ;
+        skos:prefLabel  "Boerenmarkt"@nl , "Farmers Market"@en .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag>
+        a                rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag> , rdfs:Container .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq>
+        a                rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> , rdfs:Container .
+
+rdfs:Datatype  a         rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  rdfs:Datatype , rdfs:Resource , rdfs:Class .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt>
+        a                rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  <http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt> , rdfs:Container .
+
+rdfs:Container  a        rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  rdfs:Container .
+
+rdfs:ContainerMembershipProperty
+        a                rdfs:Resource , rdfs:Class ;
+        rdfs:subClassOf  rdfs:ContainerMembershipProperty , rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+rdfs:isDefinedBy  a         rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:subPropertyOf  rdfs:isDefinedBy , rdfs:seeAlso .
+
+rdfs:seeAlso  a             rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> ;
+        rdfs:subPropertyOf  rdfs:seeAlso .
+
+skos:Concept  a  rdfs:Resource , rdfs:Class .
+
+ofd:FoodActorType  a  rdfs:Resource , rdfs:Class .

@@ -1,0 +1,360 @@
+{
+  "@graph" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt", "rdfs:Container" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag", "rdfs:Container" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "rdfs:Resource", "http://www.w3.org/1999/02/22-rdf-syntax-ns#List" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "rdfs:Resource", "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq", "rdfs:Container" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "rdfs:Resource", "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral",
+    "@type" : [ "rdfs:Datatype", "rdfs:Resource", "rdfs:Class" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "subPropertyOf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#List", "rdfs:Resource" ]
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+    "subPropertyOf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+    "subPropertyOf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "range" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "subPropertyOf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement",
+    "subPropertyOf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+  }, {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "range" : "rdfs:Class"
+  }, {
+    "@id" : "rdfs:Class",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "rdfs:Resource", "rdfs:Class" ]
+  }, {
+    "@id" : "rdfs:Container",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : "rdfs:Container"
+  }, {
+    "@id" : "rdfs:ContainerMembershipProperty",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "rdfs:ContainerMembershipProperty", "rdfs:Resource", "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" ]
+  }, {
+    "@id" : "rdfs:Datatype",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "rdfs:Datatype", "rdfs:Resource", "rdfs:Class" ]
+  }, {
+    "@id" : "rdfs:Literal",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : [ "rdfs:Resource", "rdfs:Literal" ]
+  }, {
+    "@id" : "rdfs:Resource",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ],
+    "subClassOf" : "rdfs:Resource"
+  }, {
+    "@id" : "rdfs:comment",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "rdfs:domain",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "range" : "rdfs:Class"
+  }, {
+    "@id" : "rdfs:isDefinedBy",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "subPropertyOf" : [ "rdfs:isDefinedBy", "rdfs:seeAlso" ]
+  }, {
+    "@id" : "rdfs:label",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "range" : "rdfs:Literal"
+  }, {
+    "@id" : "rdfs:range",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "range" : "rdfs:Class"
+  }, {
+    "@id" : "rdfs:seeAlso",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "subPropertyOf" : "rdfs:seeAlso"
+  }, {
+    "@id" : "rdfs:subClassOf",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "rdfs:Class",
+    "range" : "rdfs:Class"
+  }, {
+    "@id" : "rdfs:subPropertyOf",
+    "@type" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property", "rdfs:Resource" ],
+    "domain" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property",
+    "range" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+  }, {
+    "@id" : "skos:Concept",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ]
+  }, {
+    "@id" : "ofd:FoodActorType",
+    "@type" : [ "rdfs:Class", "rdfs:Resource" ]
+  }, {
+    "@id" : "at:collectionPoint",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Collection point",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Afhaalpunt"
+    }, {
+      "@language" : "en",
+      "@value" : "Collection point"
+    } ]
+  }, {
+    "@id" : "at:cooperative",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Co-operative",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Coöperatie"
+    }, {
+      "@language" : "en",
+      "@value" : "Co-operative"
+    } ]
+  }, {
+    "@id" : "at:csaFarm",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "CSA farm",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "CSA-boerderij"
+    }, {
+      "@language" : "en",
+      "@value" : "CSA farm"
+    } ]
+  }, {
+    "@id" : "at:distributor",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "FoodDistributor"
+  }, {
+    "@id" : "at:farmShop",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Farm Shop",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Hoevewinkel"
+    }, {
+      "@language" : "en",
+      "@value" : "Farm Shop"
+    } ]
+  }, {
+    "@id" : "at:farmersMarket",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Farmers Market",
+    "broader" : "at:market",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Boerenmarkt"
+    }, {
+      "@language" : "en",
+      "@value" : "Farmers Market"
+    } ]
+  }, {
+    "@id" : "at:foodAssembly",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Food Assembly",
+    "broader" : [ "at:foodHub", "at:collectionPoint" ],
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Buurderij"
+    }, {
+      "@language" : "en",
+      "@value" : "Food Assembly"
+    } ]
+  }, {
+    "@id" : "at:foodHub",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "FoodHub",
+    "broader" : "at:webShop"
+  }, {
+    "@id" : "at:foodRetailer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "FoodRetailer",
+    "broader" : "at:pointOfSale"
+  }, {
+    "@id" : "at:foodSAAS",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Food SAAS"
+  }, {
+    "@id" : "at:foodTeams",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Food teams",
+    "broader" : "at:cooperative",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Voedselteams"
+    }, {
+      "@language" : "en",
+      "@value" : "Food teams"
+    } ]
+  }, {
+    "@id" : "at:market",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Market",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Markt"
+    }, {
+      "@language" : "en",
+      "@value" : "Market"
+    } ]
+  }, {
+    "@id" : "at:picker",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "FoodPicker"
+  }, {
+    "@id" : "at:pointOfSale",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Point of sale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Verkooppunt"
+    }, {
+      "@language" : "en",
+      "@value" : "Point of sale"
+    } ]
+  }, {
+    "@id" : "at:producer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Producer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "producent"
+    }, {
+      "@language" : "en",
+      "@value" : "producer"
+    } ]
+  }, {
+    "@id" : "at:selfPicking",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Self-picking",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Zelfpluk"
+    }, {
+      "@language" : "en",
+      "@value" : "Self-picking"
+    } ]
+  }, {
+    "@id" : "at:softwareProvider",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Software Provider"
+  }, {
+    "@id" : "at:store",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "FoodStore"
+  }, {
+    "@id" : "at:vegetableSubscription",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Vegetable subscription",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Groenteabonnement"
+    }, {
+      "@language" : "en",
+      "@value" : "Vegetable subscription"
+    } ]
+  }, {
+    "@id" : "at:vendingMachine",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Vending machine",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Automaat"
+    }, {
+      "@language" : "en",
+      "@value" : "Vending machine"
+    } ]
+  }, {
+    "@id" : "at:webshop",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Webshop",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Webwinkel"
+    }, {
+      "@language" : "en",
+      "@value" : "Webshop"
+    } ]
+  } ],
+  "@context" : {
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "at" : "https://w3id.org/openfooddata/vocab/actortype#",
+    "adms" : "http://www.w3.org/ns/adms#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "ofd" : "https://w3id.org/openfooddata/onto/core#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

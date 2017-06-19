@@ -1,0 +1,1172 @@
+{ 
+  "https://w3id.org/openfooddata/vocab/actortype#webshop" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Webshop" ,
+      "lang" : "en"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Webwinkel" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Webshop"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#farmShop" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Hoevewinkel" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Farm Shop" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Farm Shop"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#foodSAAS" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Food SAAS"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#softwareProvider" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Software Provider"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#producer" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "producer" ,
+      "lang" : "en"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "producent" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Producer"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#distributor" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "FoodDistributor"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#comment" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#object" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#object"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#foodRetailer" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "FoodRetailer"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2004/02/skos/core#Concept" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Container"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#Literal" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#pointOfSale" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Verkooppunt" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Point of sale" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Point of sale"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#Resource" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#selfPicking" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Zelfpluk" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Self-picking" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Self-picking"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/onto/core#FoodActorType" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#range" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#picker" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "FoodPicker"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#foodAssembly" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Buurderij" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Food Assembly" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Food Assembly"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#foodHub"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#collectionPoint"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#label" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#market" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Markt" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Market" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Market"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#farmersMarket" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Farmers Market" ,
+      "lang" : "en"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Boerenmarkt" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Farmers Market"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#market"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#Container" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Container"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#vendingMachine" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Vending machine" ,
+      "lang" : "en"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Automaat" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Vending machine"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#store" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "FoodStore"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#domain" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#vegetableSubscription" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Groenteabonnement" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Vegetable subscription" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Vegetable subscription"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#first" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#first"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#csaFarm" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "CSA-boerderij" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "CSA farm" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "CSA farm"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#cooperative" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Coöperatie" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Co-operative" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Co-operative"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#pointOfSale"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#foodHub" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "FoodHub"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#webShop"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#List" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#subject"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Container"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#Class" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#collectionPoint" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Afhaalpunt" ,
+      "lang" : "nl"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Collection point" ,
+      "lang" : "en"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Collection point"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#Datatype" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ]
+  }
+   ,
+  "https://w3id.org/openfooddata/vocab/actortype#foodTeams" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Food teams" ,
+      "lang" : "en"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Voedselteams" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "Food teams"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#cooperative"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#domain" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#range" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+    }
+     ]
+  }
+   ,
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt" : { 
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Resource"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Class"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2000/01/rdf-schema#Container"
+    }
+     ]
+  }
+}
