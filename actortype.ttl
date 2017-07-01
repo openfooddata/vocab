@@ -10,7 +10,7 @@
 
 at:producer a ofd:FoodActorType , skos:Concept ;
     rdfs:label "Producer" ;
-    skos:prefLabel "producer"@en , "producent"@nl ;
+    skos:prefLabel "Producer"@en , "producent"@nl ;
     .
 
 at:pointOfSale a ofd:FoodActorType , skos:Concept ;
@@ -83,12 +83,14 @@ at:webshop a ofd:FoodActorType , skos:Concept ;
 	.
 
 at:foodHub a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "FoodHub" ;
+    rdfs:label "Food Hub" ;
+    skos:prefLabel "Food Hub"@en ;
     skos:broader at:webShop ;
     .
 
 at:foodRetailer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "FoodRetailer" ;
+    rdfs:label "Food Retailer" ;
+    skos:prefLabel "Food Retailer"@en ;
     skos:broader at:pointOfSale ;
     .
 
@@ -101,22 +103,27 @@ at:selfPicking a ofd:FoodActorType , skos:Concept ;
 
 # used for storing
 at:store a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "FoodStore" ;
+    rdfs:label "Food Store" ;
+    skos:prefLabel "Food Store"@en ;
     .
 
 # performs delivery
 at:distributor a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "FoodDistributor" ;
+    rdfs:label "Food Distributor" ;
+    skos:prefLabel "Food Distributor"@en ;
     .
 
 at:picker a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "FoodPicker" ;
+    rdfs:label "Food Picker" ;
+    skos:prefLabel "Food Picker"@en ;
     .
 
 at:softwareProvider a ofd:FoodActorType , skos:Concept ;
     rdfs:label "Software Provider" ;
+    skos:prefLabel "Software Provider"@en ;
     .
 
 at:foodSAAS a ofd:FoodActorType , skos:Concept ;
     rdfs:label "Food SAAS" ;
+    skos:prefLabel "Food SAAS"@en ;
     .
