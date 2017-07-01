@@ -202,8 +202,13 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#picker</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">Food Picker</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#picker</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
-      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">FoodPicker</typedLiteral>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Food Picker</typedLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#picker</uri>
@@ -244,6 +249,11 @@
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodTeams</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#foodSAAS</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">Food SAAS</plainLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodSAAS</uri>
@@ -302,8 +312,13 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodHub</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">Food Hub</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#foodHub</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
-      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">FoodHub</typedLiteral>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Food Hub</typedLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodHub</uri>
@@ -407,8 +422,13 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#distributor</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">Food Distributor</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#distributor</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
-      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">FoodDistributor</typedLiteral>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Food Distributor</typedLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#distributor</uri>
@@ -444,6 +464,11 @@
       <uri>https://w3id.org/openfooddata/vocab/actortype#pointOfSale</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#softwareProvider</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">Software Provider</plainLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#softwareProvider</uri>
@@ -497,8 +522,13 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodRetailer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">Food Retailer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#foodRetailer</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
-      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">FoodRetailer</typedLiteral>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Food Retailer</typedLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodRetailer</uri>
@@ -598,7 +628,7 @@
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#producer</uri>
       <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
-      <plainLiteral xml:lang="en">producer</plainLiteral>
+      <plainLiteral xml:lang="en">Producer</plainLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#producer</uri>
@@ -617,8 +647,13 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#store</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">Food Store</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#store</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
-      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">FoodStore</typedLiteral>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Food Store</typedLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#store</uri>

@@ -66,6 +66,12 @@
   }
    ,
   "https://w3id.org/openfooddata/vocab/actortype#foodSAAS" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Food SAAS" ,
+      "lang" : "en"
+    }
+     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -83,6 +89,12 @@
   }
    ,
   "https://w3id.org/openfooddata/vocab/actortype#softwareProvider" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Software Provider" ,
+      "lang" : "en"
+    }
+     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -102,13 +114,13 @@
   "https://w3id.org/openfooddata/vocab/actortype#producer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "producer" ,
-      "lang" : "en"
+      "value" : "producent" ,
+      "lang" : "nl"
     }
     , { 
       "type" : "literal" ,
-      "value" : "producent" ,
-      "lang" : "nl"
+      "value" : "Producer" ,
+      "lang" : "en"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -128,6 +140,12 @@
   }
    ,
   "https://w3id.org/openfooddata/vocab/actortype#distributor" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Food Distributor" ,
+      "lang" : "en"
+    }
+     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -139,7 +157,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "FoodDistributor"
+      "value" : "Food Distributor"
     }
      ]
   }
@@ -201,6 +219,12 @@
   }
    ,
   "https://w3id.org/openfooddata/vocab/actortype#foodRetailer" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Food Retailer" ,
+      "lang" : "en"
+    }
+     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -212,7 +236,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "FoodRetailer"
+      "value" : "Food Retailer"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 
@@ -476,6 +500,12 @@
   }
    ,
   "https://w3id.org/openfooddata/vocab/actortype#picker" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Food Picker" ,
+      "lang" : "en"
+    }
+     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -487,7 +517,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "FoodPicker"
+      "value" : "Food Picker"
     }
      ]
   }
@@ -712,6 +742,12 @@
   }
    ,
   "https://w3id.org/openfooddata/vocab/actortype#store" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Food Store" ,
+      "lang" : "en"
+    }
+     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -723,7 +759,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "FoodStore"
+      "value" : "Food Store"
     }
      ]
   }
@@ -910,6 +946,12 @@
   }
    ,
   "https://w3id.org/openfooddata/vocab/actortype#foodHub" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Food Hub" ,
+      "lang" : "en"
+    }
+     ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
       "type" : "uri" ,
       "value" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -921,7 +963,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "FoodHub"
+      "value" : "Food Hub"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 

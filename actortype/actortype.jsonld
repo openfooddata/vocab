@@ -163,7 +163,11 @@
   }, {
     "@id" : "at:distributor",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "FoodDistributor"
+    "label" : "Food Distributor",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Food Distributor"
+    }
   }, {
     "@id" : "at:farmShop",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
@@ -203,17 +207,29 @@
   }, {
     "@id" : "at:foodHub",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "FoodHub",
-    "broader" : "at:webShop"
+    "label" : "Food Hub",
+    "broader" : "at:webShop",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Food Hub"
+    }
   }, {
     "@id" : "at:foodRetailer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "FoodRetailer",
-    "broader" : "at:pointOfSale"
+    "label" : "Food Retailer",
+    "broader" : "at:pointOfSale",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Food Retailer"
+    }
   }, {
     "@id" : "at:foodSAAS",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "Food SAAS"
+    "label" : "Food SAAS",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Food SAAS"
+    }
   }, {
     "@id" : "at:foodTeams",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
@@ -241,7 +257,11 @@
   }, {
     "@id" : "at:picker",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "FoodPicker"
+    "label" : "Food Picker",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Food Picker"
+    }
   }, {
     "@id" : "at:pointOfSale",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
@@ -262,7 +282,7 @@
       "@value" : "producent"
     }, {
       "@language" : "en",
-      "@value" : "producer"
+      "@value" : "Producer"
     } ]
   }, {
     "@id" : "at:selfPicking",
@@ -279,11 +299,19 @@
   }, {
     "@id" : "at:softwareProvider",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "Software Provider"
+    "label" : "Software Provider",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Software Provider"
+    }
   }, {
     "@id" : "at:store",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "FoodStore"
+    "label" : "Food Store",
+    "prefLabel" : {
+      "@language" : "en",
+      "@value" : "Food Store"
+    }
   }, {
     "@id" : "at:vegetableSubscription",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
@@ -337,15 +365,15 @@
       "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
       "@type" : "@id"
     },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "broader" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#broader",
       "@type" : "@id"
-    },
-    "prefLabel" : {
-      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
     },
     "at" : "https://w3id.org/openfooddata/vocab/actortype#",
     "adms" : "http://www.w3.org/ns/adms#",

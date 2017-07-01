@@ -87,25 +87,28 @@ rdfs:subClassOf  a   rdfs:Resource , <http://www.w3.org/1999/02/22-rdf-syntax-ns
         rdfs:domain  rdfs:Class ;
         rdfs:range   rdfs:Class .
 
-at:picker  a        skos:Concept , ofd:FoodActorType ;
-        rdfs:label  "FoodPicker" .
+at:picker  a            skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food Picker" ;
+        skos:prefLabel  "Food Picker"@en .
 
 at:foodTeams  a         skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Food teams" ;
         skos:broader    at:cooperative ;
         skos:prefLabel  "Voedselteams"@nl , "Food teams"@en .
 
-at:foodSAAS  a      skos:Concept , ofd:FoodActorType ;
-        rdfs:label  "Food SAAS" .
+at:foodSAAS  a          skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food SAAS" ;
+        skos:prefLabel  "Food SAAS"@en .
 
 at:foodAssembly  a      skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Food Assembly" ;
         skos:broader    at:foodHub , at:collectionPoint ;
         skos:prefLabel  "Buurderij"@nl , "Food Assembly"@en .
 
-at:foodHub  a         skos:Concept , ofd:FoodActorType ;
-        rdfs:label    "FoodHub" ;
-        skos:broader  at:webShop .
+at:foodHub  a           skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food Hub" ;
+        skos:broader    at:webShop ;
+        skos:prefLabel  "Food Hub"@en .
 
 at:webshop  a           skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Webshop" ;
@@ -122,24 +125,27 @@ at:csaFarm  a           skos:Concept , ofd:FoodActorType ;
         skos:broader    at:pointOfSale ;
         skos:prefLabel  "CSA-boerderij"@nl , "CSA farm"@en .
 
-at:distributor  a   skos:Concept , ofd:FoodActorType ;
-        rdfs:label  "FoodDistributor" .
+at:distributor  a       skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food Distributor" ;
+        skos:prefLabel  "Food Distributor"@en .
 
 at:pointOfSale  a       skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Point of sale" ;
         skos:prefLabel  "Verkooppunt"@nl , "Point of sale"@en .
 
 at:softwareProvider  a  skos:Concept , ofd:FoodActorType ;
-        rdfs:label  "Software Provider" .
+        rdfs:label      "Software Provider" ;
+        skos:prefLabel  "Software Provider"@en .
 
 at:market  a            skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Market" ;
         skos:broader    at:pointOfSale ;
         skos:prefLabel  "Markt"@nl , "Market"@en .
 
-at:foodRetailer  a    skos:Concept , ofd:FoodActorType ;
-        rdfs:label    "FoodRetailer" ;
-        skos:broader  at:pointOfSale .
+at:foodRetailer  a      skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food Retailer" ;
+        skos:broader    at:pointOfSale ;
+        skos:prefLabel  "Food Retailer"@en .
 
 at:vegetableSubscription
         a               skos:Concept , ofd:FoodActorType ;
@@ -157,10 +163,11 @@ at:vendingMachine  a    skos:Concept , ofd:FoodActorType ;
 
 at:producer  a          skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Producer" ;
-        skos:prefLabel  "producent"@nl , "producer"@en .
+        skos:prefLabel  "producent"@nl , "Producer"@en .
 
-at:store  a         skos:Concept , ofd:FoodActorType ;
-        rdfs:label  "FoodStore" .
+at:store  a             skos:Concept , ofd:FoodActorType ;
+        rdfs:label      "Food Store" ;
+        skos:prefLabel  "Food Store"@en .
 
 at:farmShop  a          skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Farm Shop" ;
