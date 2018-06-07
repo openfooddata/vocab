@@ -128,14 +128,14 @@
   }, {
     "@id" : "at:beverageFarmer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "beverageFarmer",
+    "label" : "Beverage farmer",
     "broader" : "at:farmer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "drank"
+      "@value" : "Drank"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "Beverage farmer"
     } ]
   }, {
     "@id" : "at:collectionPoint",
@@ -175,14 +175,14 @@
   }, {
     "@id" : "at:dairyFarmer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "dairy Farmer",
+    "label" : "Dairy farmer",
     "broader" : "at:farmer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "zuivel"
+      "@value" : "Zuivel"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "Dairy farmer"
     } ]
   }, {
     "@id" : "at:distributor",
@@ -195,14 +195,14 @@
   }, {
     "@id" : "at:dryProductsFarmer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "VegFarmer",
+    "label" : "Dry products farmer",
     "broader" : "at:farmer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "droge voeding"
+      "@value" : "Droge voeding"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "DryProducts Farmer"
     } ]
   }, {
     "@id" : "at:farmShop",
@@ -223,10 +223,10 @@
     "broader" : "at:producer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "boer"
+      "@value" : "Boer"
     }, {
       "@language" : "en",
-      "@value" : "farmer"
+      "@value" : "Farmer"
     } ]
   }, {
     "@id" : "at:farmersMarket",
@@ -293,11 +293,11 @@
   }, {
     "@id" : "at:fruitFarmer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "Fruit Farmer",
+    "label" : "Fruit farmer",
     "broader" : "at:farmer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "fruit"
+      "@value" : "Fruit"
     }, {
       "@language" : "en",
       "@value" : "vegetable farmer"
@@ -317,26 +317,26 @@
   }, {
     "@id" : "at:meatFarmer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "meat Farmer",
+    "label" : "Meat farmer",
     "broader" : "at:farmer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "vlees"
+      "@value" : "Vlees"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "Meat farmer"
     } ]
   }, {
     "@id" : "at:oilsFarmer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "oilsFarmer",
+    "label" : "OilsFarmer",
     "broader" : "at:farmer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "olie en azijn"
+      "@value" : "Olie en azijn"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "Oils farmer"
     } ]
   }, {
     "@id" : "at:picker",
@@ -363,10 +363,22 @@
     "label" : "Producer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "producent"
+      "@value" : "Producent"
     }, {
       "@language" : "en",
       "@value" : "Producer"
+    } ]
+  }, {
+    "@id" : "at:sausesProducer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "VegFarmer",
+    "broader" : "at:producer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "Sausen"
+    }, {
+      "@language" : "en",
+      "@value" : "Sauses"
     } ]
   }, {
     "@id" : "at:selfPicking",
@@ -403,10 +415,10 @@
     "broader" : "at:farmer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "groenten"
+      "@value" : "Groenten"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "Vegetable farmer"
     } ]
   }, {
     "@id" : "at:vegProductsProducer",
@@ -415,10 +427,10 @@
     "broader" : "at:producer",
     "prefLabel" : [ {
       "@language" : "nl",
-      "@value" : "vegetarische producten"
+      "@value" : "Vegetarische producten"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "Vegetable farmer"
     } ]
   }, {
     "@id" : "at:vegetableSubscription",

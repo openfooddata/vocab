@@ -35,12 +35,12 @@
   "https://w3id.org/openfooddata/vocab/actortype#vegFarmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "groenten" ,
+      "value" : "Groenten" ,
       "lang" : "nl"
     }
     , { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
+      "value" : "Vegetable farmer" ,
       "lang" : "en"
     }
      ] ,
@@ -147,7 +147,7 @@
   "https://w3id.org/openfooddata/vocab/actortype#producer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "producent" ,
+      "value" : "Producent" ,
       "lang" : "nl"
     }
     , { 
@@ -254,13 +254,13 @@
   "https://w3id.org/openfooddata/vocab/actortype#oilsFarmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "olie en azijn" ,
-      "lang" : "nl"
+      "value" : "Oils farmer" ,
+      "lang" : "en"
     }
     , { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
-      "lang" : "en"
+      "value" : "Olie en azijn" ,
+      "lang" : "nl"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -274,7 +274,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "oilsFarmer"
+      "value" : "OilsFarmer"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 
@@ -391,13 +391,13 @@
   "https://w3id.org/openfooddata/vocab/actortype#dairyFarmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
-      "lang" : "en"
+      "value" : "Zuivel" ,
+      "lang" : "nl"
     }
     , { 
       "type" : "literal" ,
-      "value" : "zuivel" ,
-      "lang" : "nl"
+      "value" : "Dairy farmer" ,
+      "lang" : "en"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -411,7 +411,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "dairy Farmer"
+      "value" : "Dairy farmer"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 
@@ -429,7 +429,7 @@
     }
     , { 
       "type" : "literal" ,
-      "value" : "fruit" ,
+      "value" : "Fruit" ,
       "lang" : "nl"
     }
      ] ,
@@ -444,7 +444,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "Fruit Farmer"
+      "value" : "Fruit farmer"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 
@@ -634,13 +634,13 @@
   "https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
-      "lang" : "en"
+      "value" : "Droge voeding" ,
+      "lang" : "nl"
     }
     , { 
       "type" : "literal" ,
-      "value" : "droge voeding" ,
-      "lang" : "nl"
+      "value" : "DryProducts Farmer" ,
+      "lang" : "en"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -654,7 +654,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "VegFarmer"
+      "value" : "Dry products farmer"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 
@@ -831,13 +831,13 @@
   "https://w3id.org/openfooddata/vocab/actortype#farmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "farmer" ,
-      "lang" : "en"
+      "value" : "Boer" ,
+      "lang" : "nl"
     }
     , { 
       "type" : "literal" ,
-      "value" : "boer" ,
-      "lang" : "nl"
+      "value" : "Farmer" ,
+      "lang" : "en"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -965,12 +965,12 @@
   "https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
+      "value" : "Vegetable farmer" ,
       "lang" : "en"
     }
     , { 
       "type" : "literal" ,
-      "value" : "vegetarische producten" ,
+      "value" : "Vegetarische producten" ,
       "lang" : "nl"
     }
      ] ,
@@ -1176,6 +1176,39 @@
      ]
   }
    ,
+  "https://w3id.org/openfooddata/vocab/actortype#sausesProducer" : { 
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
+      "type" : "literal" ,
+      "value" : "Sauses" ,
+      "lang" : "en"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Sausen" ,
+      "lang" : "nl"
+    }
+     ] ,
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
+      "type" : "uri" ,
+      "value" : "http://www.w3.org/2004/02/skos/core#Concept"
+    }
+    , { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/onto/core#FoodActorType"
+    }
+     ] ,
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
+      "type" : "literal" ,
+      "value" : "VegFarmer"
+    }
+     ] ,
+    "http://www.w3.org/2004/02/skos/core#broader" : [ { 
+      "type" : "uri" ,
+      "value" : "https://w3id.org/openfooddata/vocab/actortype#producer"
+    }
+     ]
+  }
+   ,
   "https://w3id.org/openfooddata/vocab/actortype#foodHub" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
@@ -1275,12 +1308,12 @@
   "https://w3id.org/openfooddata/vocab/actortype#beverageFarmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
+      "value" : "Beverage farmer" ,
       "lang" : "en"
     }
     , { 
       "type" : "literal" ,
-      "value" : "drank" ,
+      "value" : "Drank" ,
       "lang" : "nl"
     }
      ] ,
@@ -1295,7 +1328,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "beverageFarmer"
+      "value" : "Beverage farmer"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 
@@ -1479,13 +1512,13 @@
   "https://w3id.org/openfooddata/vocab/actortype#meatFarmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
-      "lang" : "en"
+      "value" : "Vlees" ,
+      "lang" : "nl"
     }
     , { 
       "type" : "literal" ,
-      "value" : "vlees" ,
-      "lang" : "nl"
+      "value" : "Meat farmer" ,
+      "lang" : "en"
     }
      ] ,
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ { 
@@ -1499,7 +1532,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "meat Farmer"
+      "value" : "Meat farmer"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 
