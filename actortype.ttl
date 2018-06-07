@@ -10,60 +10,66 @@
 
 at:producer a ofd:FoodActorType , skos:Concept ;
     rdfs:label "Producer" ;
-    skos:prefLabel "Producer"@en , "producent"@nl ;
+    skos:prefLabel "Producer"@en , "Producent"@nl ;
     .
 
 at:farmer a ofd:FoodActorType , skos:Concept ;
     rdfs:label "Farmer" ;
-    skos:prefLabel "farmer"@en , "boer"@nl ;
+    skos:prefLabel "Farmer"@en , "Boer"@nl ;
     skos:broader at:producer ;    
 .
 
 at:vegFarmer a ofd:FoodActorType , skos:Concept ;
     rdfs:label "VegFarmer" ;
-    skos:prefLabel "vegetable farmer"@en , "groenten"@nl ;
+    skos:prefLabel "Vegetable farmer"@en , "Groenten"@nl ;
     skos:broader at:farmer ;    
 .
 
 at:fruitFarmer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "Fruit Farmer" ;
-    skos:prefLabel "vegetable farmer"@en , "fruit"@nl ;
+    rdfs:label "Fruit farmer" ;
+    skos:prefLabel "vegetable farmer"@en , "Fruit"@nl ;
     skos:broader at:farmer ;    
 .
 
 at:meatFarmer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "meat Farmer" ;
-    skos:prefLabel "vegetable farmer"@en , "vlees"@nl ;
+    rdfs:label "Meat farmer" ;
+    skos:prefLabel "Meat farmer"@en , "Vlees"@nl ;
     skos:broader at:farmer ;    
 .
 
 at:dairyFarmer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "dairy Farmer" ;
-    skos:prefLabel "vegetable farmer"@en , "zuivel"@nl ;
+    rdfs:label "Dairy farmer" ;
+    skos:prefLabel "Dairy farmer"@en , "Zuivel"@nl ;
     skos:broader at:farmer ;    
 .
 
 at:beverageFarmer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "beverageFarmer" ;
-    skos:prefLabel "vegetable farmer"@en , "drank"@nl ;
+    rdfs:label "Beverage farmer" ;
+    skos:prefLabel "Beverage farmer"@en , "Drank"@nl ;
     skos:broader at:farmer ;    
 .
 
 at:oilsFarmer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "oilsFarmer" ;
-    skos:prefLabel "vegetable farmer"@en , "olie en azijn"@nl ;
+    rdfs:label "OilsFarmer" ;
+    skos:prefLabel "Oils farmer"@en , "Olie en azijn"@nl ;
     skos:broader at:farmer ;    
 .
 
 at:dryProductsFarmer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "VegFarmer" ;
-    skos:prefLabel "vegetable farmer"@en , "droge voeding"@nl ;
+    rdfs:label "Dry products farmer" ;
+    skos:prefLabel "DryProducts Farmer"@en , "Droge voeding"@nl ;
     skos:broader at:farmer ;    
 .
 
 at:vegProductsProducer a ofd:FoodActorType , skos:Concept ;
     rdfs:label "VegFarmer" ;
-    skos:prefLabel "vegetable farmer"@en , "vegetarische producten"@nl ;
+    skos:prefLabel "Vegetable farmer"@en , "Vegetarische producten"@nl ;
+    skos:broader at:producer ;    
+.
+
+at:sausesProducer a ofd:FoodActorType , skos:Concept ;
+    rdfs:label "VegFarmer" ;
+    skos:prefLabel "Sauses"@en , "Sausen"@nl ;
     skos:broader at:producer ;    
 .
 
