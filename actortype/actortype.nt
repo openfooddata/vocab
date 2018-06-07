@@ -59,11 +59,23 @@
 <https://w3id.org/openfooddata/vocab/actortype#foodAssembly> <http://www.w3.org/2000/01/rdf-schema#label> "Food Assembly" .
 <https://w3id.org/openfooddata/vocab/actortype#foodAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#foodAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
+<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "fruit"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "Fruit Farmer" .
+<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#foodHub> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#webShop> .
 <https://w3id.org/openfooddata/vocab/actortype#foodHub> <http://www.w3.org/2004/02/skos/core#prefLabel> "Food Hub"@en .
 <https://w3id.org/openfooddata/vocab/actortype#foodHub> <http://www.w3.org/2000/01/rdf-schema#label> "Food Hub" .
 <https://w3id.org/openfooddata/vocab/actortype#foodHub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#foodHub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#producer> .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetarische producten"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2000/01/rdf-schema#label> "VegFarmer" .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#webshop> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> .
 <https://w3id.org/openfooddata/vocab/actortype#webshop> <http://www.w3.org/2004/02/skos/core#prefLabel> "Webwinkel"@nl .
 <https://w3id.org/openfooddata/vocab/actortype#webshop> <http://www.w3.org/2004/02/skos/core#prefLabel> "Webshop"@en .
@@ -86,15 +98,45 @@
 <https://w3id.org/openfooddata/vocab/actortype#distributor> <http://www.w3.org/2000/01/rdf-schema#label> "Food Distributor" .
 <https://w3id.org/openfooddata/vocab/actortype#distributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#distributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#oilsFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
+<https://w3id.org/openfooddata/vocab/actortype#oilsFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "olie en azijn"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#oilsFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#oilsFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "oilsFarmer" .
+<https://w3id.org/openfooddata/vocab/actortype#oilsFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#oilsFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> <http://www.w3.org/2004/02/skos/core#prefLabel> "Verkooppunt"@nl .
 <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> <http://www.w3.org/2004/02/skos/core#prefLabel> "Point of sale"@en .
 <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> <http://www.w3.org/2000/01/rdf-schema#label> "Point of sale" .
 <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#meatFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
+<https://w3id.org/openfooddata/vocab/actortype#meatFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vlees"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#meatFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#meatFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "meat Farmer" .
+<https://w3id.org/openfooddata/vocab/actortype#meatFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#meatFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#softwareProvider> <http://www.w3.org/2004/02/skos/core#prefLabel> "Software Provider"@en .
 <https://w3id.org/openfooddata/vocab/actortype#softwareProvider> <http://www.w3.org/2000/01/rdf-schema#label> "Software Provider" .
 <https://w3id.org/openfooddata/vocab/actortype#softwareProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#softwareProvider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#vegFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
+<https://w3id.org/openfooddata/vocab/actortype#vegFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "groenten"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#vegFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#vegFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "VegFarmer" .
+<https://w3id.org/openfooddata/vocab/actortype#vegFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#vegFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#beverageFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
+<https://w3id.org/openfooddata/vocab/actortype#beverageFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "drank"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#beverageFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#beverageFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "beverageFarmer" .
+<https://w3id.org/openfooddata/vocab/actortype#beverageFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#beverageFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#farmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#producer> .
+<https://w3id.org/openfooddata/vocab/actortype#farmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "boer"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#farmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#farmer> <http://www.w3.org/2000/01/rdf-schema#label> "Farmer" .
+<https://w3id.org/openfooddata/vocab/actortype#farmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#farmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#market> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> .
 <https://w3id.org/openfooddata/vocab/actortype#market> <http://www.w3.org/2004/02/skos/core#prefLabel> "Markt"@nl .
 <https://w3id.org/openfooddata/vocab/actortype#market> <http://www.w3.org/2004/02/skos/core#prefLabel> "Market"@en .
@@ -117,6 +159,12 @@
 <https://w3id.org/openfooddata/vocab/actortype#collectionPoint> <http://www.w3.org/2000/01/rdf-schema#label> "Collection point" .
 <https://w3id.org/openfooddata/vocab/actortype#collectionPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#collectionPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
+<https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "droge voeding"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "VegFarmer" .
+<https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#vendingMachine> <http://www.w3.org/2004/02/skos/core#prefLabel> "Automaat"@nl .
 <https://w3id.org/openfooddata/vocab/actortype#vendingMachine> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vending machine"@en .
 <https://w3id.org/openfooddata/vocab/actortype#vendingMachine> <http://www.w3.org/2000/01/rdf-schema#label> "Vending machine" .
@@ -127,6 +175,12 @@
 <https://w3id.org/openfooddata/vocab/actortype#producer> <http://www.w3.org/2000/01/rdf-schema#label> "Producer" .
 <https://w3id.org/openfooddata/vocab/actortype#producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
+<https://w3id.org/openfooddata/vocab/actortype#dairyFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
+<https://w3id.org/openfooddata/vocab/actortype#dairyFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "zuivel"@nl .
+<https://w3id.org/openfooddata/vocab/actortype#dairyFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#dairyFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "dairy Farmer" .
+<https://w3id.org/openfooddata/vocab/actortype#dairyFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/openfooddata/vocab/actortype#dairyFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#store> <http://www.w3.org/2004/02/skos/core#prefLabel> "Food Store"@en .
 <https://w3id.org/openfooddata/vocab/actortype#store> <http://www.w3.org/2000/01/rdf-schema#label> "Food Store" .
 <https://w3id.org/openfooddata/vocab/actortype#store> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
@@ -186,8 +240,8 @@
 <http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 <http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <https://w3id.org/openfooddata/onto/core#FoodActorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
@@ -217,5 +271,5 @@
 <http://www.w3.org/2000/01/rdf-schema#Datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
 <https://w3id.org/openfooddata/onto/core#FoodActorType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Resource> .

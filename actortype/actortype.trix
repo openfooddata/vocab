@@ -306,6 +306,36 @@
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
     </triple>
     <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">fruit</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Fruit Farmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodHub</uri>
       <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
       <uri>https://w3id.org/openfooddata/vocab/actortype#webShop</uri>
@@ -327,6 +357,36 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#foodHub</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#producer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">vegetarische producten</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">VegFarmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
     </triple>
@@ -441,6 +501,36 @@
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
     </triple>
     <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#oilsFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#oilsFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">olie en azijn</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#oilsFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#oilsFarmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">oilsFarmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#oilsFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#oilsFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#pointOfSale</uri>
       <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
       <plainLiteral xml:lang="nl">Verkooppunt</plainLiteral>
@@ -466,6 +556,36 @@
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
     </triple>
     <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#meatFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#meatFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">vlees</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#meatFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#meatFarmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">meat Farmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#meatFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#meatFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#softwareProvider</uri>
       <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
       <plainLiteral xml:lang="en">Software Provider</plainLiteral>
@@ -482,6 +602,96 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#softwareProvider</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">groenten</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegFarmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">VegFarmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#vegFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#beverageFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#beverageFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">drank</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#beverageFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#beverageFarmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">beverageFarmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#beverageFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#beverageFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#producer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">boer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Farmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
     </triple>
@@ -596,6 +806,36 @@
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
     </triple>
     <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">droge voeding</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">VegFarmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#vendingMachine</uri>
       <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
       <plainLiteral xml:lang="nl">Automaat</plainLiteral>
@@ -642,6 +882,36 @@
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#producer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dairyFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#broader</uri>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#farmer</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dairyFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="nl">zuivel</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dairyFarmer</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
+      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dairyFarmer</uri>
+      <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">dairy Farmer</typedLiteral>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dairyFarmer</uri>
+      <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+    </triple>
+    <triple>
+      <uri>https://w3id.org/openfooddata/vocab/actortype#dairyFarmer</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
     </triple>
@@ -941,12 +1211,12 @@
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#Property</uri>
     </triple>
     <triple>
-      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#Class</uri>
     </triple>
     <triple>
-      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#Class</uri>
     </triple>
@@ -1096,12 +1366,12 @@
       <uri>http://www.w3.org/2000/01/rdf-schema#Resource</uri>
     </triple>
     <triple>
-      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
+      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#Resource</uri>
     </triple>
     <triple>
-      <uri>https://w3id.org/openfooddata/onto/core#FoodActorType</uri>
+      <uri>http://www.w3.org/2004/02/skos/core#Concept</uri>
       <uri>http://www.w3.org/1999/02/22-rdf-syntax-ns#type</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#Resource</uri>
     </triple>

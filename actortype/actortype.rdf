@@ -166,6 +166,28 @@
     <rdfs:label>Webshop</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#vegFarmer">
+    <skos:broader>
+      <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#farmer">
+        <skos:broader>
+          <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#producer">
+            <skos:prefLabel xml:lang="nl">producent</skos:prefLabel>
+            <skos:prefLabel xml:lang="en">Producer</skos:prefLabel>
+            <rdfs:label>Producer</rdfs:label>
+            <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+          </skos:Concept>
+        </skos:broader>
+        <skos:prefLabel xml:lang="nl">boer</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">farmer</skos:prefLabel>
+        <rdfs:label>Farmer</rdfs:label>
+        <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+      </skos:Concept>
+    </skos:broader>
+    <skos:prefLabel xml:lang="nl">groenten</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>VegFarmer</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#farmShop">
     <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
     <skos:prefLabel xml:lang="nl">Hoevewinkel</skos:prefLabel>
@@ -183,15 +205,16 @@
     <rdfs:label>Software Provider</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
-  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#producer">
-    <skos:prefLabel xml:lang="nl">producent</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Producer</skos:prefLabel>
-    <rdfs:label>Producer</rdfs:label>
-    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
-  </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#distributor">
     <skos:prefLabel xml:lang="en">Food Distributor</skos:prefLabel>
     <rdfs:label>Food Distributor</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#oilsFarmer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#farmer"/>
+    <skos:prefLabel xml:lang="nl">olie en azijn</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>oilsFarmer</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#foodRetailer">
@@ -200,11 +223,32 @@
     <rdfs:label>Food Retailer</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#dairyFarmer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#farmer"/>
+    <skos:prefLabel xml:lang="nl">zuivel</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>dairy Farmer</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#fruitFarmer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#farmer"/>
+    <skos:prefLabel xml:lang="nl">fruit</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>Fruit Farmer</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#selfPicking">
     <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
     <skos:prefLabel xml:lang="nl">Zelfpluk</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Self-picking</skos:prefLabel>
     <rdfs:label>Self-picking</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#dryProductsFarmer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#farmer"/>
+    <skos:prefLabel xml:lang="nl">droge voeding</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>VegFarmer</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#picker">
@@ -263,6 +307,13 @@
     <rdfs:label>Food Store</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#producer"/>
+    <skos:prefLabel xml:lang="nl">vegetarische producten</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>VegFarmer</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#vegetableSubscription">
     <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#pointOfSale"/>
     <skos:prefLabel xml:lang="nl">Groenteabonnement</skos:prefLabel>
@@ -275,6 +326,13 @@
     <skos:prefLabel xml:lang="nl">CSA-boerderij</skos:prefLabel>
     <skos:prefLabel xml:lang="en">CSA farm</skos:prefLabel>
     <rdfs:label>CSA farm</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#beverageFarmer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#farmer"/>
+    <skos:prefLabel xml:lang="nl">drank</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>beverageFarmer</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#foodTeams">
@@ -290,6 +348,13 @@
     <skos:prefLabel xml:lang="nl">Voedselteams</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Food teams</skos:prefLabel>
     <rdfs:label>Food teams</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
+  </skos:Concept>
+  <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#meatFarmer">
+    <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#farmer"/>
+    <skos:prefLabel xml:lang="nl">vlees</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <rdfs:label>meat Farmer</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
 </rdf:RDF>

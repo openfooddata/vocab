@@ -126,6 +126,18 @@
     "@id" : "ofd:FoodActorType",
     "@type" : [ "rdfs:Class", "rdfs:Resource" ]
   }, {
+    "@id" : "at:beverageFarmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "beverageFarmer",
+    "broader" : "at:farmer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "drank"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
+    } ]
+  }, {
     "@id" : "at:collectionPoint",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
     "label" : "Collection point",
@@ -161,6 +173,18 @@
       "@value" : "CSA farm"
     } ]
   }, {
+    "@id" : "at:dairyFarmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "dairy Farmer",
+    "broader" : "at:farmer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "zuivel"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
+    } ]
+  }, {
     "@id" : "at:distributor",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
     "label" : "Food Distributor",
@@ -168,6 +192,18 @@
       "@language" : "en",
       "@value" : "Food Distributor"
     }
+  }, {
+    "@id" : "at:dryProductsFarmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "VegFarmer",
+    "broader" : "at:farmer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "droge voeding"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
+    } ]
   }, {
     "@id" : "at:farmShop",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
@@ -179,6 +215,18 @@
     }, {
       "@language" : "en",
       "@value" : "Farm Shop"
+    } ]
+  }, {
+    "@id" : "at:farmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Farmer",
+    "broader" : "at:producer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "boer"
+    }, {
+      "@language" : "en",
+      "@value" : "farmer"
     } ]
   }, {
     "@id" : "at:farmersMarket",
@@ -243,6 +291,18 @@
       "@value" : "Food teams"
     } ]
   }, {
+    "@id" : "at:fruitFarmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "Fruit Farmer",
+    "broader" : "at:farmer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "fruit"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
+    } ]
+  }, {
     "@id" : "at:market",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
     "label" : "Market",
@@ -253,6 +313,30 @@
     }, {
       "@language" : "en",
       "@value" : "Market"
+    } ]
+  }, {
+    "@id" : "at:meatFarmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "meat Farmer",
+    "broader" : "at:farmer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "vlees"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
+    } ]
+  }, {
+    "@id" : "at:oilsFarmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "oilsFarmer",
+    "broader" : "at:farmer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "olie en azijn"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
     } ]
   }, {
     "@id" : "at:picker",
@@ -312,6 +396,30 @@
       "@language" : "en",
       "@value" : "Food Store"
     }
+  }, {
+    "@id" : "at:vegFarmer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "VegFarmer",
+    "broader" : "at:farmer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "groenten"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
+    } ]
+  }, {
+    "@id" : "at:vegProductsProducer",
+    "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
+    "label" : "VegFarmer",
+    "broader" : "at:producer",
+    "prefLabel" : [ {
+      "@language" : "nl",
+      "@value" : "vegetarische producten"
+    }, {
+      "@language" : "en",
+      "@value" : "vegetable farmer"
+    } ]
   }, {
     "@id" : "at:vegetableSubscription",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
