@@ -27,7 +27,7 @@ at:vegFarmer a ofd:FoodActorType , skos:Concept ;
 
 at:fruitFarmer a ofd:FoodActorType , skos:Concept ;
     rdfs:label "Fruit farmer" ;
-    skos:prefLabel "vegetable farmer"@en , "Fruit"@nl ;
+    skos:prefLabel "Fruit farmer"@en , "Fruit"@nl ;
     skos:broader at:farmer ;    
 .
 
@@ -62,8 +62,8 @@ at:dryProductsFarmer a ofd:FoodActorType , skos:Concept ;
 .
 
 at:vegProductsProducer a ofd:FoodActorType , skos:Concept ;
-    rdfs:label "VegFarmer" ;
-    skos:prefLabel "Vegetable farmer"@en , "Vegetarische producten"@nl ;
+    rdfs:label "Vegetarian products" ;
+    skos:prefLabel "Vegetarian products"@en , "Vegetarische producten"@nl ;
     skos:broader at:producer ;    
 .
 
