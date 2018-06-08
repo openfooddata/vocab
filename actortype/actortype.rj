@@ -424,7 +424,7 @@
   "https://w3id.org/openfooddata/vocab/actortype#fruitFarmer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "vegetable farmer" ,
+      "value" : "Fruit farmer" ,
       "lang" : "en"
     }
     , { 
@@ -965,7 +965,7 @@
   "https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer" : { 
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ { 
       "type" : "literal" ,
-      "value" : "Vegetable farmer" ,
+      "value" : "Vegetarian products" ,
       "lang" : "en"
     }
     , { 
@@ -985,7 +985,7 @@
      ] ,
     "http://www.w3.org/2000/01/rdf-schema#label" : [ { 
       "type" : "literal" ,
-      "value" : "VegFarmer"
+      "value" : "Vegetarian products"
     }
      ] ,
     "http://www.w3.org/2004/02/skos/core#broader" : [ { 

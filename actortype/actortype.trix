@@ -318,7 +318,7 @@
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
       <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
-      <plainLiteral xml:lang="en">vegetable farmer</plainLiteral>
+      <plainLiteral xml:lang="en">Fruit farmer</plainLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#fruitFarmer</uri>
@@ -373,12 +373,12 @@
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
       <uri>http://www.w3.org/2004/02/skos/core#prefLabel</uri>
-      <plainLiteral xml:lang="en">Vegetable farmer</plainLiteral>
+      <plainLiteral xml:lang="en">Vegetarian products</plainLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>
       <uri>http://www.w3.org/2000/01/rdf-schema#label</uri>
-      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">VegFarmer</typedLiteral>
+      <typedLiteral datatype="http://www.w3.org/2001/XMLSchema#string">Vegetarian products</typedLiteral>
     </triple>
     <triple>
       <uri>https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer</uri>

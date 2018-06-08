@@ -108,7 +108,7 @@ at:foodAssembly  a      skos:Concept , ofd:FoodActorType ;
 at:fruitFarmer  a       skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Fruit farmer" ;
         skos:broader    at:farmer ;
-        skos:prefLabel  "Fruit"@nl , "vegetable farmer"@en .
+        skos:prefLabel  "Fruit"@nl , "Fruit farmer"@en .
 
 at:foodHub  a           skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Food Hub" ;
@@ -117,9 +117,9 @@ at:foodHub  a           skos:Concept , ofd:FoodActorType ;
 
 at:vegProductsProducer
         a               skos:Concept , ofd:FoodActorType ;
-        rdfs:label      "VegFarmer" ;
+        rdfs:label      "Vegetarian products" ;
         skos:broader    at:producer ;
-        skos:prefLabel  "Vegetarische producten"@nl , "Vegetable farmer"@en .
+        skos:prefLabel  "Vegetarische producten"@nl , "Vegetarian products"@en .
 
 at:webshop  a           skos:Concept , ofd:FoodActorType ;
         rdfs:label      "Webshop" ;

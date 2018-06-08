@@ -233,7 +233,7 @@
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#fruitFarmer">
     <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#farmer"/>
     <skos:prefLabel xml:lang="nl">Fruit</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">vegetable farmer</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Fruit farmer</skos:prefLabel>
     <rdfs:label>Fruit farmer</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
@@ -310,8 +310,8 @@
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer">
     <skos:broader rdf:resource="https://w3id.org/openfooddata/vocab/actortype#producer"/>
     <skos:prefLabel xml:lang="nl">Vegetarische producten</skos:prefLabel>
-    <skos:prefLabel xml:lang="en">Vegetable farmer</skos:prefLabel>
-    <rdfs:label>VegFarmer</rdfs:label>
+    <skos:prefLabel xml:lang="en">Vegetarian products</skos:prefLabel>
+    <rdfs:label>Vegetarian products</rdfs:label>
     <rdf:type rdf:resource="https://w3id.org/openfooddata/onto/core#FoodActorType"/>
   </skos:Concept>
   <skos:Concept rdf:about="https://w3id.org/openfooddata/vocab/actortype#vegetableSubscription">

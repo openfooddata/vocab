@@ -300,7 +300,7 @@
       "@value" : "Fruit"
     }, {
       "@language" : "en",
-      "@value" : "vegetable farmer"
+      "@value" : "Fruit farmer"
     } ]
   }, {
     "@id" : "at:market",
@@ -423,14 +423,14 @@
   }, {
     "@id" : "at:vegProductsProducer",
     "@type" : [ "skos:Concept", "ofd:FoodActorType" ],
-    "label" : "VegFarmer",
+    "label" : "Vegetarian products",
     "broader" : "at:producer",
     "prefLabel" : [ {
       "@language" : "nl",
       "@value" : "Vegetarische producten"
     }, {
       "@language" : "en",
-      "@value" : "Vegetable farmer"
+      "@value" : "Vegetarian products"
     } ]
   }, {
     "@id" : "at:vegetableSubscription",

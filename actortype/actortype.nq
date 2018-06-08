@@ -61,7 +61,7 @@
 <https://w3id.org/openfooddata/vocab/actortype#foodAssembly> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#farmer> .
 <https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fruit"@nl .
-<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "vegetable farmer"@en .
+<https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Fruit farmer"@en .
 <https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/2000/01/rdf-schema#label> "Fruit farmer" .
 <https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#fruitFarmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
@@ -72,8 +72,8 @@
 <https://w3id.org/openfooddata/vocab/actortype#foodHub> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#producer> .
 <https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vegetarische producten"@nl .
-<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vegetable farmer"@en .
-<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2000/01/rdf-schema#label> "VegFarmer" .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2004/02/skos/core#prefLabel> "Vegetarian products"@en .
+<https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/2000/01/rdf-schema#label> "Vegetarian products" .
 <https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/openfooddata/vocab/actortype#vegProductsProducer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/openfooddata/onto/core#FoodActorType> .
 <https://w3id.org/openfooddata/vocab/actortype#webshop> <http://www.w3.org/2004/02/skos/core#broader> <https://w3id.org/openfooddata/vocab/actortype#pointOfSale> .

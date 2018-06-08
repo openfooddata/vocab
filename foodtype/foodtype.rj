@@ -10858,12 +10858,12 @@
     , { 
       "type" : "literal" ,
       "value" : "Lucuma" ,
-      "lang" : "th"
+      "lang" : "ru"
     }
     , { 
       "type" : "literal" ,
       "value" : "Lucuma" ,
-      "lang" : "ru"
+      "lang" : "th"
     }
     , { 
       "type" : "literal" ,
@@ -114753,7 +114753,7 @@
     , { 
       "type" : "literal" ,
       "value" : "Carambola" ,
-      "lang" : "fr"
+      "lang" : "pt"
     }
     , { 
       "type" : "literal" ,
@@ -114764,6 +114764,11 @@
       "type" : "literal" ,
       "value" : "Carambola" ,
       "lang" : "es"
+    }
+    , { 
+      "type" : "literal" ,
+      "value" : "Carambola" ,
+      "lang" : "fr"
     }
     , { 
       "type" : "literal" ,
@@ -114784,11 +114789,6 @@
       "type" : "literal" ,
       "value" : "Carambola" ,
       "lang" : "pl"
-    }
-    , { 
-      "type" : "literal" ,
-      "value" : "Carambola" ,
-      "lang" : "pt"
     }
     , { 
       "type" : "literal" ,
